@@ -1,0 +1,101 @@
+.MuseoSans-500 { 
+	font-family: MuseoSans-500;
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	font-family: MuseoSans-300;
+	background-color: white;
+	color: black;
+	cursor:default;
+}
+h1,li{
+	cursor:pointer;
+}
+#main{
+	width: 1078px;
+	height: 620px;
+	position:absolute;
+    top:50%;
+    left:50%;
+    margin:-310px 0 0 -539px;
+}
+#home{
+	font-family: MuseoSans-900;
+	color:white;
+	position: absolute;
+	/*REAL margin-top: -25px;*/
+	margin: 11px 0px 0px 53px;
+	font-weight: bolder;
+}
+#menu{
+	font-family: MuseoSans-900;
+	color:white;
+	position: absolute;
+	bottom: 0%;
+	/*REAL margin-bottom: 13px;*/	
+	margin:0 0 67px 53px;
+}
+#menu h1{
+	margin-bottom: -20px;
+}
+#image{
+	background-color: black;
+	position:absolute;
+	width: 734px;
+	height: 335px;
+	/*REAL margin-top: -25px;*/
+	margin: 111px 0 0 53px;
+}
+.right_side{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	background-color: white;
+	position:absolute;
+	width: 210px;
+	height: 335px;
+	/*REAL margin-top: -25px;*/
+	margin: 111px 0 0 832px;
+	overflow-y: scroll;
+}
+.right_side h2{
+	font-size: 15px;
+	cursor: default;
+	font-family: MuseoSans-900;
+	margin: 20px 5px 30px 15px;
+}
+#list ul li{
+	font-family: MuseoSans-900;
+	font-size: 15px;
+	list-style-type: none;
+	margin: 20px 5px 0 -25px;
+}
+#details div ul li,#contact ul li{
+	font-size: 12px;
+	list-style-type: none;
+	margin: 5px 5px 0 -25px;
+	cursor: default;
+}
+#details div h3{
+	font-weight: normal;
+	font-size: 12px;
+	text-align: right;
+	margin:45px 20px 40px 0;
+}
+#footer{
+	width: 350px;
+	height: 500px;
+	position:absolute;
+	z-index: 2;
+	top:50%;
+	left:50%;
+	margin:-250px 0 0 -175px;
+	background-color: transparent;
+}
+#footer textarea{
+	width: 350px;
+	height: 400px;
+}
+#footer button{
+	float:right;
+}
